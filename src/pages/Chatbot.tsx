@@ -60,7 +60,7 @@ const Chatbot = () => {
   const chatContainerRef = useRef(null);
 
   // Note: In production, store API keys securely on your backend
-  const GEMINI_API_KEY = 'AIzaSyBtfUlIUSEPu3dwccr4hgNy03FiiKoopu8';
+  const GEMINI_API_KEY = 'ur-gemini-api-key';
   const GEMINI_API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${GEMINI_API_KEY}`;
 
   // Educational system prompt for BVRIT context
